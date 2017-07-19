@@ -33,6 +33,11 @@ a {
 	text-decoration: none;
 }
 
+.link {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
 .wrapper {
 	max-width: 1160px;
 	margin: 0 auto;
@@ -52,10 +57,9 @@ a {
 
 .business_links a:link,
 .business_links a:visited {
-	display: inline-block;
-	padding: 5px 10px;
 	color: #89959B;
-	font-size: 12px;
+	font-size: 11px;
+	line-height: 1.2;
 }
 
 .business_links a:hover,
@@ -63,7 +67,71 @@ a {
 .business_links a:focus {
 	color: #33373D;
 }
+
+/*------------Navigation Header------------*/
  
+.navigation-header {
+	background: #fff;
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,.1);
+}
+
+.navigation-header img {
+	height: 28px;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+.navigation-header span {
+	padding-left: 4px;
+}
+
+.left {
+	float: left;	
+}
+
+.right {
+	float: right;
+}
+
+.header-nav-link:link,
+.header-nav-link:visited {
+	color: #33373D;
+	line-height: 1.7;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+}
+
+.header-nav-link:hover,
+.header-nav-link:active {
+	background-color: #FFF8EB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================================*/
+/*		     Clearfix                */
+/*==================================*/
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
 
 
 
