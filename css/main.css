@@ -51,6 +51,7 @@ a {
 	background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/main-img.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin-bottom: 20px;
 }
 
 
@@ -209,6 +210,12 @@ a {
 	border-radius: 4px;
 	text-align: center;
 	padding: 11px 21px;
+	transition: all 0.15s ease-out;
+}
+
+.btn-red:hover,
+.btn-red:active {
+	background: #A71823;
 }
 
 .dropdown {
