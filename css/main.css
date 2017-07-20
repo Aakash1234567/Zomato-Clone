@@ -17,9 +17,14 @@ body {
 	min-width: 320px;
 }
 
-::selection {
-	background-color: #CCE2FF;
-	color: #33373D;
+h2 {
+	line-height: normal;
+	margin-bottom: -2px;
+}
+
+h3 {
+	font-size: 17px;
+	font-weight: 700;
 }
 
 ul,
@@ -31,6 +36,15 @@ ol {
 
 a {
 	text-decoration: none;
+	color: #33373D;
+}
+
+section {
+	margin-top: 60px;
+}
+
+.sub-header-container {
+	margin-bottom: 14px;
 }
 
 .link {
@@ -38,9 +52,31 @@ a {
 	padding: 5px 10px;
 }
 
-.wrapper {
+.container {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sub-header {
+	color: #89959B;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.wrapper,
+.section-container {
 	max-width: 1160px;
 	margin: 0 auto;
+}
+
+.border-all {
+	border: 1px solid #e7e7e7;
+}
+
+::selection {
+	background-color: #CCE2FF;
+	color: #33373D;
 }
 
 /*==================================*/
@@ -293,6 +329,68 @@ a {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
+/*==================================*/
+/*		  Section Collections       */
+/*==================================*/
+
+.collections-wrapper {
+	width: 66.66667%;
+	float: left;
+}
+
+.order-food-online-wrapper {
+	width: 33.33333%;
+	float: right;
+}
+
+.collections-grid-col {
+	width: 48%;
+	float: left;
+	background: #fff;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+
+.collections-grid-col a {
+	color: #33373D;
+}
+
+.collections-grid-col:nth-child(2n) {
+	margin-left: 4%;
+}
+
+.collections-grid-col img {
+	height: 120px;
+	margin-right: 13px;
+	float: left;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.trending {
+	padding-top: 10px;
+	padding-right: 15px;
+}
+
+.collections-info {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.collections-wrapper .collections-btn {
+	text-align: center;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.collections-wrapper .collections-btn a {
+	color: #cb202d;
+	display: block;
+	padding: 14px;
+	font-size: 14px;
+}
+
 
 
 
