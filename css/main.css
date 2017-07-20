@@ -196,6 +196,19 @@ a {
 	background-size: 13px 13px;
 }
 
+.btn-red {
+	background: #cb202d;
+	color: #fff;
+	font-weight: 400;
+	display: inline-block;
+	line-height: 18px;
+	height: 40px;
+	vertical-align: middle;
+	border-radius: 4px;
+	text-align: center;
+	padding: 11px 21px;
+}
+
 
 
 
