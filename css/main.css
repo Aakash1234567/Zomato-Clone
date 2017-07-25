@@ -500,12 +500,56 @@ section {
 	border-left: 1px solid #e7e7e7;
 }
 
+/*==================================*/
+/*		     Quick-Search           */
+/*==================================*/
+
+.quick-search-container {
+	padding: 21px;
+}
+
+.quick-search-container .quick-search-options {
+	float: left;
+	border: 1px solid red;
+	height: 121px;
+	width: 12.5%;
+	line-height: 1.4;
+	padding: 14px;
+	text-align: center;
+}
+
+.quick-search-options img {
+	width: 48px;
+	height: 48px;
+	margin-bottom: 5px;
+	display: block;
+	border: 1px solid red;
+}
+
+.quick-search-options div {
+	font-size: 14px;
+	border: 1px solid red;
+}
 
 
+/*==================================*/
+/*		     Section Cities         */
+/*==================================*/
 
+.cities-container {
+	padding: 14px;
+}
 
+.cities-container a {
+	float: left;
+	width: 33.333333%;
+	font-size: 14px;
+	padding: 0 10px 10px 10px;
+}
 
-
+.cities-container a span {
+	color: #89959B;
+}
 
 
 /*==================================*/
