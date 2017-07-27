@@ -550,6 +550,54 @@ section {
 	color: #89959B;
 }
 
+/*==================================*/
+/*		     Statistic              */
+/*==================================*/
+
+.grey-text-column {
+	margin-top: 0;
+	text-align: center;
+}
+
+.grey-text-column .section-container {
+	margin-top: 20px;
+	padding-top: 20px;
+	margin-bottom: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.grey-text-column .section-container > div {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.statistic {
+	float: left;
+	text-transform: uppercase;
+	margin: 0 21px 28px 21px;
+	color: #B9BFC7;
+}
+
+.statistic .value {
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 1;
+}
+
+.statistic .label {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
 
 /*==================================*/
 /*		     Clearfix                */
